@@ -72,6 +72,10 @@ a:link {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+.movies img:hover{
+    transform: scale(1.2);
+    transition: 500ms;
+}
 @media screen and (max-width:768px) {
     .gen {
         margin-top: 0;
