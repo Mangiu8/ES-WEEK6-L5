@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Netflix-assets/assets/css/style.css">
+  </head>
+  <body class="bg-netflix">
+    <nav class="navbar bg-netflix bg-gradient">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://www.netflix.com/it/">
+            <img src="./Netflix-assets/assets/netflix_logo.png" alt="Netflix" width="200" height="100">
+          </a>
+        </div>
+      </nav>
+      <div class="container w-50">
+        <h1 class="text-white">Edit Profile</h1>
+         <hr>
+         <div class="row">
+            <div class="float-start w-auto" >
+                <img src="./Netflix-assets/assets/avatar.png" width="150" height="150" lt="">
+            </div>
+            <div class="col-6">
+                <div class="form-floating mb-3">
+                    <input type="name" class="form-control bg-secondary rounded-0" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput text-white-50">Nome</label>
+                  </div>
+                  <div class="dropdown">
+                      <p class="text-white">Language:</p>
+                      <button class="btn btn-secondary dropdown-toggle bg-black border border-white rounded-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        English
+                      </button>
+                      <ul class="dropdown-menu bg-black">
+                        <li><a class="dropdown-item text-secondary" href="#">Italiano</a></li>
+                        <li><a class="dropdown-item text-secondary" href="#">Shqiptare</a></li>
+                        <li><a class="dropdown-item text-secondary" href="#">Français</a></li>
+                        <li><a class="dropdown-item text-secondary" href="#">Polski</a></li>
+                        <li><a class="dropdown-item text-secondary" href="#">Русский</a></li>
+                        <li><a class="dropdown-item text-secondary" href="#">Español</a></li>
+                      </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <hr>
+                        <div class="col">
+                            <div>
+                                <h5 class="text-white mb-3">Maturity Settings:</h5>
+                                    <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                                        <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                                        <label class="btn btn-outline-secondary rounded-0" for="btncheck1">ALL MATURITY RATINGS</label>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mt-3">
+                        <div>
+                            <p class="text-white">Show titles of all maturity ratings for this profile</p>
+                            <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                                <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                                <label class="btn btn-outline-secondary rounded-0" for="btncheck1">EDIT</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <hr>
+                        <div class="col mb-3">
+                            <div>
+                                <h5 class="text-white">Autoplay controls</h5>
+                                   <label class="check">Autoplay next episode in a series on all devices.
+                                       <input type="checkbox">
+                                       <span class="checkmark"></span>
+                                   </label>
+                                   <label class="check">Autoplay previews while browsing on all devices.
+                                       <input type="checkbox">
+                                       <span class="checkmark"></span>
+                                   </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <hr>
+                    <div class="col-3">
+                        <button class="btn btn-outline-light rounded-0 w-50">SAVE</button>
+                    </div>
+                    <div class="col-4">
+                        <button class="btn btn-outline-light rounded-0 w-50">CANCEL</button>
+                    </div>
+                    <div class="col-4">
+                        <button class="btn btn-outline-light rounded-0 w-75">DELETE PROFILE</button>
+                    </div>
+                </div>
+           
+           
+         </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
